@@ -1,0 +1,26 @@
+.MainAboutPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Aboutcontainer 
+{margin-top: 3rem;
+    height: 50vh;
+    width: 85vw;
+    background-color: rgba(255,255,255,0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 4% 4%;
+}
+.AboutText{
+    height: 85%;
+    font-size: 1.2rem;
+    margin-top:1rem ;
+    padding: 0.8rem 4rem;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.8);
+}

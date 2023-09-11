@@ -1,0 +1,54 @@
+.container3 {  margin-top: 3rem;
+    background-color: rgba(255,255,255,0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 4% 4%;
+}
+.addnoteform{
+	margin-top: 1rem;
+    padding: 0.8rem 4rem;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.8);
+}
+.formInput {
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+.labelInput{
+/* background-color:aqua ; */
+margin-top: 1rem;
+    width:20%;
+    font-size: 1.3rem;
+}
+.addnoteButton {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 11px 18px;
+	border-radius: 8px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	/* width: 100%; */
+	color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+	cursor: pointer;
+	transition: .2s;
+}
+.addnoteButton:disabled {
+	color: #D4D3E8;
+}
+.addnoteButton:active,
+.addnoteButton:focus,
+.addnoteButton:hover {
+	border-color: #6A679E;
+	outline: none;
+}

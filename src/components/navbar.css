@@ -1,0 +1,114 @@
+.navbar {
+    position:static;
+  background-color: rgb(192, 192, 192);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #5D54A4, #7C78B8);	
+  box-shadow: 0px 0px 24px #5C5696;
+}
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  /* background-color: #ffbaba; */
+}
+.navbarDiv1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+.navbartitle {
+  margin-left: 1%;
+  font-size: 1.4rem;
+  color: aliceblue;
+  text-decoration: none;
+  transform: translateY(0);
+  animation: 2s slideUp ease forwards .5s;
+  position: relative;
+}
+.navbartitle::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -3px;
+    background: rgb(255, 255, 255); 
+    transition: all .5s ease;
+  }
+  
+  .navbartitle:hover:before {
+        width: 100%;
+  }
+  .navbartitle:hover{
+    color:#ffffff
+  }
+  
+
+
+.navbarDiv2 {
+  display: flex;
+  flex: 5;
+  /* background-color: #f2ffa7; */
+}
+.navbar-ul {
+  display: flex;
+  margin: 1% 0%;
+  align-items: center;
+  justify-content: flex-start;
+  /* background-color: #a9f5ff;    */
+}
+.navbar-li {
+  display: flex;
+  margin: 0 10%;
+  list-style: none;
+  /* background-color: #60ff8f; */
+}
+.li-link {
+   
+  margin-top: 10%;
+  font-size: 1.1rem;
+  color: #e4e3e3;
+  font-weight: bold;
+
+  text-decoration: none;
+  padding: 10% 21%;
+}
+.li-link::after{
+   
+    position:fixed;
+    content: "";
+    background: #fff;
+     /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 4.2rem;
+    height: 2.2rem;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.4s ease;
+  }
+.li-link:hover::after{
+    transform: scaleY(1);
+  }
+.li-link:hover{
+    color: #7875B5;
+    font-weight: bold;
+    transform: scaleY(1);
+  }
+
+.navbar-end {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-color: #649bff;    */
+}
+.end-items {
+  margin: 1% 3%;
+  /* background-color: #ff7676; */
+}
